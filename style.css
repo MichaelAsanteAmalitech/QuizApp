@@ -52,7 +52,38 @@ h1{
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.video-container:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
 .content{
     z-index: 10;
 }
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--primary-color);
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 5px;
+    margin-top: 25px;
+    opacity: 0.72;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+}
+
