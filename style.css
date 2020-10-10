@@ -87,7 +87,7 @@ h1{
     transform: scale(0.98);
 }
 
-.info-box,
+/* .info-box,
 .quiz-box {
     display: none;
     width: 540px;
@@ -212,4 +212,4 @@ h1{
     line-height: 30px;
     border-radius: 5px;
     border: 1px solid #343a40;
-}
+} */
