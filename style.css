@@ -87,3 +87,9 @@ h1{
     transform: scale(0.98);
 }
 
+.info-list{
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
